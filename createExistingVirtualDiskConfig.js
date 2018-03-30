@@ -1,7 +1,7 @@
-#Title: Create Existing Virtual Disk Config
-#Description: Used to attach an existing VMDK to a VM
-#Inputs: diskFileName [string], controllerKey [number], diskIndex [number], sharingType [string], diskMode [string]
-#ReturnType: Any
+//Title: Create Existing Virtual Disk Config
+//Description: Used to attach an existing VMDK to a VM
+//Inputs: diskFileName [string], controllerKey [number], diskIndex [number], sharingType [string], diskMode [string]
+//ReturnType: Any
 
 if(diskIndex != 7){
 	// Create Disk BackingInfo
