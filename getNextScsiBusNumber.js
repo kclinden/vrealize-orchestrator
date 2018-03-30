@@ -1,7 +1,7 @@
-#Title: Get Next SCSI Bus Number
-#Description: Used to get the next available SCSI but number for a virtual machine
-#Inputs: virtualMachine [VC:VirtualMachine]
-#ReturnType: Number
+//Title: Get Next SCSI Bus Number
+//Description: Used to get the next available SCSI but number for a virtual machine
+//Inputs: virtualMachine [VC:VirtualMachine]
+//ReturnType: Number
 
 //Get next scsi bus number
 var devices = virtualMachine.config.hardware.device;
